@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5ee31951bae00ac498f765c5edcb264f
+timeCreated: 1478693827
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - MapObjectPrefab: {fileID: 1000012697539412, guid: 0ac68433480b1454a888e837f2a59cab,
+      type: 2}
+  - MapTexturePrefab: {fileID: 2800000, guid: ac72fbfea88a4d04085196ee2dbb01e9, type: 3}
+  - MapMaterialPrefab: {fileID: 2100000, guid: 372f1abe003dd934ab592a43a435937b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

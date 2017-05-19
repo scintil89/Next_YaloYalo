@@ -1,0 +1,116 @@
+{
+  "UnitSpecs": 
+  [
+    {
+      "unitName": "King",
+      "yaloCost": 0,
+      "hp": 100,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 0.0,
+      "attackRange": 0.0,
+      "attackPower": 0,
+      "attackFreq": 0.0,
+      "attackDelay": 0.0,
+      "moveSpeed": 0.0
+    },
+
+    {
+      "unitName": "Nexus",
+      "yaloCost": 0,
+      "hp": 20,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 0.0,
+      "attackRange": 0.0,
+      "attackPower": 0,
+      "attackFreq": 0.0,
+      "attackDelay": 0.0,
+      "moveSpeed": 0.0
+    },
+
+    {
+      "unitName": "SwordMan",
+      "yaloCost": 1,
+      "hp": 10,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 124.9,
+      "attackRange": 50.0,
+      "attackPower": 1,
+      "attackFreq": 2.0,
+      "attackDelay": 0.36,
+      "moveSpeed": 50.0
+    },
+
+    {
+      "unitName": "BowMan",
+      "yaloCost": 2,
+      "hp": 5,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 200.0,
+      "attackRange": 150.0,
+      "attackPower": 2,
+      "attackFreq": 3.0,
+      "attackDelay": 1.0,
+      "moveSpeed": 30.0
+    },
+
+    {
+      "unitName": "Arrow",
+      "yaloCost": 5,
+      "hp": 2,
+      "isMagic": true,
+      "summonTime": 0.0,
+      "sightRange": 0.0,
+      "attackRange": 100.0,
+      "attackPower": 4,
+      "attackFreq": 0.0,
+      "attackDelay": 0.0,
+      "moveSpeed": 0.0
+    },
+
+    {
+      "unitName": "Prince",
+      "yaloCost": 3,
+      "hp": 10,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 124.9,
+      "attackRange": 50.0,
+      "attackPower": 2,
+      "attackFreq": 2.0,
+      "attackDelay": 0.41,
+      "moveSpeed": 50.0
+    },
+
+    {
+      "unitName": "Sparky",
+      "yaloCost": 5,
+      "hp": 15,
+      "isMagic": false,
+      "summonTime": 0.0,
+      "sightRange": 270.0,
+      "attackRange": 240.0,
+      "attackPower": 8,
+      "attackFreq": 0.0,
+      "attackDelay": 1.7,
+      "moveSpeed": 20.0
+    },
+
+    {
+      "unitName": "GoblinBarrel",
+      "yaloCost": 2,
+      "hp": 5,
+      "isMagic": true,
+      "summonTime": 1.7,
+      "sightRange": 124.9,
+      "attackRange": 50.0,
+      "attackPower": 2,
+      "attackFreq": 1.5,
+      "attackDelay": 0.2,
+      "moveSpeed": 30.0
+    }
+  ]
+}

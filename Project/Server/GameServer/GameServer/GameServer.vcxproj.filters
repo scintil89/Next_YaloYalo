@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Match.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="BroadCaster.cpp" />
+    <ClCompile Include="MatchMother.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitState_Summoning.cpp">
+      <Filter>UnitState</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitState_WalkAndSeek.cpp">
+      <Filter>UnitState</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitState_Nothing.cpp">
+      <Filter>UnitState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Packet\Packets.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitState_Approach.cpp">
+      <Filter>UnitState</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitState_Attaking.cpp">
+      <Filter>UnitState</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WayManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="YaloManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTemplate.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="YaloTable.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Prince.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparky.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="GoblinBarrel.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Match.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="BroadCaster.h" />
+    <ClInclude Include="MatchMother.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Packet\Packets.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="SendKing.h" />
+    <ClInclude Include="UnitState_Summoning.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState_WalkAndSeek.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState_Nothing.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState_Approach.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitState_Attaking.h">
+      <Filter>UnitState</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="WayManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="YaloManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="YaloTable.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSpecs.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTemplate.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Prince.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparky.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinBarrel.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{c2ae82a5-9f3f-4b8b-a9f8-6a74943f6db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{2e7644d3-d0d3-4bd9-8463-73e208667fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit">
+      <UniqueIdentifier>{4625a2a1-583f-4086-ae5d-e1e82538a390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitState">
+      <UniqueIdentifier>{a916622b-642d-494a-b45d-ea67270287fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c53df5c6-dc71-4ace-9f47-9b76f1932ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{c1afaa81-df1e-4051-a5fe-b7bb11763876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Common\Packet\auto_generate.bat">
+      <Filter>Packets</Filter>
+    </None>
+    <None Include="..\..\..\Common\Packet\Packets.rpg">
+      <Filter>Packets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

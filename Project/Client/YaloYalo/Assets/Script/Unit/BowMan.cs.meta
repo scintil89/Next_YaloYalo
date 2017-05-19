@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d113a7c7aaf16b943ae39cbbe43495c5
+timeCreated: 1479848801
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bowPrefab: {fileID: 1000011478152928, guid: 834ff130ebede804da503e2efe6f3c4b,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

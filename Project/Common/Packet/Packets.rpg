@@ -1,0 +1,121 @@
+﻿// 매치 신청 패킷
+PACKET_MATCH_JOIN_REQ
+{
+    // 기기 고유값 (클라이언트 id 역할)
+    single string  	_uuid
+    // 게임에서 사용할 닉네임
+    single string   	_nickname
+    // 매치서버가 알려준 방 번호
+    single integer 	_roomNum
+}
+
+// 매치 신청 결과 패킷
+PACKET_MATCH_JOIN_RES
+{
+    single  bool    	_isSuccess
+    single  string  	_opponentNickname
+}
+
+// 게임 시작하기 위한 정보를 서버에서 알려준다
+PACKET_MATCH_START_NTF
+{
+    // true가 player1, false가 player2
+    single bool 	_playerSide
+ 
+    single float	_yaloChargeTime
+    single integer	_yaloStartNum
+    single integer	_maxYaloNum
+
+    single float 	_mapSizeX
+    single float 	_mapSizeY
+
+    single float	_leftBridgeRectX
+    single float	_leftBridgeRectY
+    single float             _rightBridgeRectX
+    single float	_rightBridgeRectY
+    single float	_bridgeWidth
+    single float	_bridgeHeight
+}
+
+PACKET_CLIENT_GAME_READY_REQ
+{
+	single bool 	_gameReady
+}
+
+PACKET_UNIT_SUMMON_REQ
+{
+	single string 	_unitName
+	single float 	_posX
+	single float 	_posY
+}
+
+PACKET_UNIT_SUMMON_NTF
+{
+	single bool	_playerSide
+	single string	_unitName
+	single integer	_unitNum
+	single float	_posX
+	single float	_posY
+	single integer	 _hp
+}
+
+PACKET_UNIT_MOVE_TO_TARGET_NTF
+{
+	single integer	_unitNum
+	single integer	_targetNum
+	single float	_currentPosX
+	single float	_currentPosY
+	single float	_speed
+}
+
+PACKET_UNIT_MOVE_TO_WAYPOINT_NTF
+{
+	single integer	_unitNum
+	single float	_moveValueX
+	single float	_moveValueY
+	single float	_wayPointX
+	single float	_wayPointY
+}
+
+PACKET_UNIT_ATTACK_NTF
+{
+	single integer	_unitNum
+	single integer	_targetNum
+	single float 	_attackDelay
+}
+
+PACKET_UNIT_HP_CHANGED
+{
+	single integer	 _unitNum
+	single integer 	_hp
+}
+
+PACKET_UNIT_DIE_NTF
+{
+	single integer	 _unitNum
+}
+
+PACKET_YALO_CHANGED_NTF
+{
+	single bool	_playerSide
+	single integer	_currentYalo
+}
+
+PACKET_GAME_RESULT_NTF
+{
+    // true가 player1, false가 player2
+    single bool	 _winPlayerSide
+}
+
+PACKET_CONNECT_CLOSE_NTF
+{
+	single integer _sessionIdx
+}
+
+PACKET_UNIT_SPECIAL_NTF
+{
+	single float _fval1
+	single float _fval2
+	single integer _ival
+	single integer _unitNum
+}

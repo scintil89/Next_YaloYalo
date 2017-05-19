@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1d521b39cf1ed0c469e116ce66027042
+timeCreated: 1479856787
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - SwordManPrefab: {fileID: 1000011914075920, guid: 2d528a676559bac4fb8ca2045b7c424f,
+      type: 2}
+  - BowManPrefab: {fileID: 1000012196062928, guid: 07879ba7e397f7c4a9d4e4d7d877a8b8,
+      type: 2}
+  - NexusPrefab: {fileID: 1000014064084922, guid: 3d1ce96a7eb32b8469cf86f42268780a,
+      type: 2}
+  - KingPrefab: {fileID: 1000011949569746, guid: 0b46365490de6cf469531d5140f0b3dd,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
